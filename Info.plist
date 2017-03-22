@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>John Keller</string>
+	<key>Builder Version</key>
+	<string>12602.2.14.0.7</string>
+	<key>CFBundleDisplayName</key>
+	<string>Ultrawide</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.johnkeller.ultrawide</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>Ultrawide.js</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>Make videos crop ultra-wide on many websites.</string>
+	<key>DeveloperIdentifier</key>
+	<string>0000000000</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>*.youtube.com</string>
+				<string>youtube.com</string>
+				<string>youtu.be</string>
+				<string>*.youtu.be</string>
+				<string>plex.tv</string>
+				<string>*.plex.tv</string>
+			</array>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>http://johnkeller101.com</string>
+</dict>
+</plist>
